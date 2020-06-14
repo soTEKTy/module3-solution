@@ -5,7 +5,7 @@ body{
 	font-family: 'Lato', sans-serif;
 }
 #header-nav {
-	background-color: #999999;
+	background-color: #666;
 	border-radius: 0;
 	border: 0;
 }
@@ -28,9 +28,9 @@ body{
 	border: 1px solid;
 }
 #nav-list a:hover {
-	background-color: #999999;
+	background-color: #BBBBBB;
 }
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-top .navbar-form {
 	border-top: 0px;
 }
 .navbar-nav{
@@ -49,6 +49,9 @@ body{
 	}
 div.navbar-header{
 	height: 62px;
+}
+#main-content{
+	margin-top: 75px;
 }
 h2{
 	margin: 0px 0px 20px 0px;
